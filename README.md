@@ -1,5 +1,7 @@
 # Ventilator-Pressure-Prediction
 
+[Notion](https://www.notion.so/Google-Brain-Ventilator-Pressure-Prediction-74763728a1e54b0997350e859dd34d3e)
+
 - 01…LGBM ベースライン
 - 02…LSTM ベースライン
 - 03…LSTM 01の特徴量で．
@@ -38,6 +40,8 @@
 - 36…戸田さんの特徴量+自分ので，regression．ちょっとよくなった．
 - 37…戸田さんのclassificationを，pytorch lightningに．37_2のほうで完成．
 
+
+memo 
 
 まるちkfoldかつ，それぞれのR_Cをクラスタリングして，クラスタが均等に割り振られるようにするのが良いかも．
 クラス分類する．
