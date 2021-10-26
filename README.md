@@ -96,6 +96,8 @@
 - 92…ディスカッションにあがってた物理特徴量．だめじゃないか！！！
 - 93…10fold
 - 94…lstmのあとにtransformer
+- 95…transformer4layer
+- 96…95で，reduce_mem_usageを抜かしてみた→ダメそう
 
 memo 
 
