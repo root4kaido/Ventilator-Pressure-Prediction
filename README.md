@@ -98,6 +98,8 @@
 - 94…lstmのあとにtransformer
 - 95…transformer4layer
 - 96…95で，reduce_mem_usageを抜かしてみた→ダメそう
+- 97…94の5fold．95は安定しない．loss発散する．
+- 98…95の10fold．なんか微妙に安定しないfoldがありそう・・・
 
 memo 
 
