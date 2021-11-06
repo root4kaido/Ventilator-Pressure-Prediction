@@ -100,6 +100,28 @@
 - 96…95で，reduce_mem_usageを抜かしてみた→ダメそう
 - 97…94の5fold．95は安定しない．loss発散する．
 - 98…95の10fold．なんか微妙に安定しないfoldがありそう・・・
+- 99…20fold
+- 100…そのまま回帰にしてみた．流石に無理そう…10foldの0番目で1.6くらいだった．
+- 101…1DCNN，SEED変えて10fold
+
+- stacking_1…一段目．リッジ
+- stacking_2…一段目．lgbm
+- stacking_3…一段目．lgbm self-stacking
+- stacking_4…一段目．NN．
+- stacking_5…一段目．リッジ．最新モデル群
+- stacking_6…一段目．lgbm．最新モデル群
+
+- stacking2_1…二段目．本日のリッジ．めっちゃさがっちゃった
+- stacking2_2…二段目．昨日のでlgbm．微妙．
+- stacking2_3…二段目．本日の最適化でリッジ．まだひくいなあ
+- stacking2_4…二段目．本日の最適化でlgbm．1195はでた．
+- stacking2_5…二段目．昨日のでリッジ+weighted_median.まあまあ．
+- stacking2_6…二段目．なんかのlgbm．自分の特徴あり．
+
+- stacking3_1…三段目．lgbm．
+
+
+
 
 memo 
 
@@ -120,3 +142,8 @@ pp tainのメチャ近いu_inの軌道をつかう．
 lossを加重中央で考える→とりあえずvalid_loopだけでもやるか！！
 
 pp 分散の大きいものは，RかCをかえてみる
+全部0のとこを何とかする
+そのまま回帰で解いてみる
+lstmとtransformerを逆にする
+
+あした→三段目スタッキング
