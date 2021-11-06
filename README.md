@@ -117,6 +117,9 @@
 - stacking2_4…二段目．本日の最適化でlgbm．1195はでた．
 - stacking2_5…二段目．昨日のでリッジ+weighted_median.まあまあ．
 - stacking2_6…二段目．なんかのlgbm．自分の特徴あり．
+- stacking2_7…二段目．stacking一段目の最強特徴量．lgbm．
+- stacking2_8…二段目．2_7の5fold版．あとstacking1段目のweighted_meanも追加．
+
 
 - stacking3_1…三段目．lgbm．
 
